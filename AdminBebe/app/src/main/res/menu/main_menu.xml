@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myiconapp.MainActivity" >
+
+    <item
+        android:id="@+id/boton_ajustes"
+        android:orderInCategory="1"
+        android:title="@string/programar"
+        android:icon="@drawable/ic_history_white_24dp"
+        app:showAsAction="always|withText"/>
+
+
+</menu>

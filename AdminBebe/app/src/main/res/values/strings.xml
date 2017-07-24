@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AdminBebé</string>
+    <string name="programar">Programar</string>
+    <string name="title_activity_programar">Programar publicación</string>
+    <string name="titulo_progrmar">Elija fecha y foto</string>
+    <string name="seleccion">Elige fecha y foto</string>
+    <string name="carpeta_ico">&#xE2C8;</string>
+    <string name="plus_ico">&#xE147;</string>
+    <string name="fecha_ico">&#xE916;</string>
+    <string name="mensa_ico">&#xE8D2;</string>
+    <string name="done">&#xE876;</string>
+    <string name="mensaje_fecha_blanco">INTRODUCE FECHA</string>
+    <string name="mensaje_buenos_dias">¡Buenos días Bebé!</string>
+
+</resources>

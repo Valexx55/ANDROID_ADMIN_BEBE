@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vale.adminbebe.actividades.programarpublicacion.ProgramarActivity">
+
+    <TextView
+        android:layout_gravity="center|center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:text="Introduce nuevo mensaje"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="¡Buenos días bebé!"
+        android:textSize="24sp"
+        android:id="@+id/nuevo_mensaje" />
+
+    <Button
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:background="@color/colorPrimary"
+        android:id="@+id/boton_ok_mensaje_nuevo"
+        android:onClick="mensaje_editado"/>
+
+</LinearLayout>
